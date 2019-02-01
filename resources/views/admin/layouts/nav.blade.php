@@ -13,6 +13,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="/home/slider">Slider</a></li>
                 <li><a href="/home/contact">Contact</a></li>
+                <li><a href="/home/about">About us</a></li>
                 <li>
                     <a class="dropdown-item" href="{{ route('logout') }}"
                         onclick="event.preventDefault();

@@ -28,3 +28,9 @@ Route::get('/home/slider/{slider}/delete', 'SliderController@delete');
 
 Route::get('/home/contact', 'ContactController@edit');
 Route::post('/home/contact/change', 'ContactController@change');
+
+
+Route::get('/home/about', 'AboutController@edit');
+Route::post('/home/about/change', 'AboutController@change');
+
+
