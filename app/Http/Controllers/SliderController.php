@@ -48,6 +48,10 @@ class SliderController extends Controller
     
     public function change(Slider $slider, Request $request)
     {
+        $request->validate([
+            'title' => 'required|max:255',
+            'img' => 'image|mimes:jpg,png,jpeg,svg',
+        ]);
         $id = $slider->id;
         $file = $slider->img;
         $slider = Slider::find($id);

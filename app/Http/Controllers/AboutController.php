@@ -23,11 +23,12 @@ class AboutController extends Controller
     {
         
         // dd($request);
-        // $request->validate([
-        //     'text' => 'required|max:2000',
-        //     'img1' => 'image|mimes:jpg,png,jpeg,svg|required',
-        //     'img2' => 'image|mimes:jpg,png,jpeg,svg|required',
-        // ]);
+        $request->validate([
+            'text' => 'required|max:2000',
+            'img1' => 'image|mimes:jpg,png,jpeg,svg',
+            'img2' => 'image|mimes:jpg,png,jpeg,svg',
+        ]);
+        
         $file1 = $about->img1;
         $file2 = $about->img2;
         $about = About::find('1');

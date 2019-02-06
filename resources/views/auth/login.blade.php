@@ -4,10 +4,10 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+            <div class="card" style="margin-top:20%">
+                <div class="card-header" style="background-color:#272C33; color:white">{{ __('Login') }}</div>
 
-                <div class="card-body">
+                <div class="card-body" style="background-color:#9496a1; color:white">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
@@ -57,11 +57,6 @@
                                     {{ __('Login') }}
                                 </button>
 
-                                @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
-                                @endif
                             </div>
                         </div>
                     </form>
