@@ -12,6 +12,7 @@
         <div id="main-menu" class="main-menu collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li><a href="/home/slider">Slider</a></li>
+                <li><a href="/home/gallery">Gallery</a></li>
                 <li><a href="/home/contact">Contact</a></li>
                 <li><a href="/home/about">About us</a></li>
                 <li>

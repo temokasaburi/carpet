@@ -34,3 +34,10 @@ Route::get('/home/about', 'AboutController@edit');
 Route::post('/home/about/change', 'AboutController@change');
 
 
+Route::get('home/gallery', 'GalleryController@index');
+Route::get('/home/gallery/create', 'GalleryController@create');
+Route::post('/home/gallery/store', 'GalleryController@store');
+Route::get('/home/gallery/{image}/edit', 'GalleryController@edit');
+Route::post('/home/gallery/{image}/change', 'GalleryController@change');
+Route::get('/home/gallery/{image}/delete', 'GalleryController@delete');
+
