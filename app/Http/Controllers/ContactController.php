@@ -36,9 +36,7 @@ class ContactController extends Controller
         $contact->facebook = request('facebook');
         $contact->instagram = request('instagram');
         $contact->twetter = request('twetter');
-        $contact->google_api_key = request('google_api_key');
-        $contact->google_map_lat = request('google_map_lat');
-        $contact->google_map_lag = request('google_map_lag');
+        $contact->google_map_frame = request('google_map_frame');
         $contact->save();
         return back();
 

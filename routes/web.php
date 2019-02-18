@@ -11,13 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomePageController@index');
 
+
+
+
+
+Route::any('/admin', 'HomeController@index')->name('home');
+Route::any('/register', 'HomeController@index')->name('home');
+Route::any('/home', 'HomeController@index')->name('home');
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/home/slider', 'SliderController@index');
 Route::get('/home/slider/create', 'SliderController@create');

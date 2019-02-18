@@ -32,19 +32,11 @@
             <div class="col-12 col-md-11"><input type="text" id="text-input" name="twetter" value="{{$contact->twetter}}" placeholder="Twetter" class="form-control"></div>
         </div>
         
-        <div class="row form-group">
-            <div class="col col-md-1"><label for="text-input" class=" form-control-label" style="padding-left:5px;">Google API Key</label></div>
-            <div class="col-12 col-md-11"><input type="text" id="text-input" name="google_api_key" value="{{$contact->google_api_key}}" placeholder="Google API Key" class="form-control"></div>
-        </div>
+        
         
         <div class="row form-group">
-            <div class="col col-md-1"><label for="text-input" class=" form-control-label" style="padding-left:5px;">Google Map Lat</label></div>
-            <div class="col-12 col-md-11"><input type="text" id="text-input" name="google_map_lat" value="{{$contact->google_map_lat}}" placeholder="Google Map Lat" class="form-control"></div>
-        </div>
-        
-        <div class="row form-group">
-            <div class="col col-md-1"><label for="text-input" class=" form-control-label" style="padding-left:5px;">Google Map Lag</label></div>
-            <div class="col-12 col-md-11"><input type="text" id="text-input" name="google_map_lag" value="{{$contact->google_map_lag}}" placeholder="Google Map Lag" class="form-control"></div>
+            <div class="col col-md-1"><label for="text-input" class=" form-control-label" style="padding-left:5px;">Google Map Src</label></div>
+            <div class="col-12 col-md-11"><input type="text" id="text-input" name="google_map_frame" value="{{$contact->google_map_frame}}" placeholder="Google Map Lag" class="form-control"></div>
         </div>
         
 

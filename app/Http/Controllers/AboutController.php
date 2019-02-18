@@ -7,7 +7,7 @@ use \App\About;
 
 class AboutController extends Controller
 {   
-    private $destination_path = 'img/';
+    private $destination_path = 'assets/img/';
 
 
 

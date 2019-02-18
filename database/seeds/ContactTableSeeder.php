@@ -18,9 +18,7 @@ class ContactTableSeeder extends Seeder
             'facebook' => 'https://www.facebook.com/',
             'instagram' => 'https://www.instagram.com/',
             'twetter' => 'https://twitter.com/',
-            'google_api_key' => 'google_api_key',
-            'google_map_lat' => 'google_map_lat',
-            'google_map_lag' => 'google_map_lag'
+            'google_map_frame' => 'google_map_frame'
             
         ]);
     }

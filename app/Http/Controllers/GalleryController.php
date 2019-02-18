@@ -8,7 +8,7 @@ use \App\Gallery;
 class GalleryController extends Controller
 {
 
-    private $destination_path = 'img/'; 
+    private $destination_path = 'assets/img/'; 
 
 
     public function index(){

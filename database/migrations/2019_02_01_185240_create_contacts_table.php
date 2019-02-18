@@ -21,9 +21,7 @@ class CreateContactsTable extends Migration
             $table->string('facebook');
             $table->string('instagram');
             $table->string('twetter');
-            $table->string('google_api_key');
-            $table->string('google_map_lat');
-            $table->string('google_map_lag');
+            $table->text('google_map_frame');
             $table->timestamps();
         });
     }
