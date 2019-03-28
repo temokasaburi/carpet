@@ -10,7 +10,7 @@ use \App\Contact;
 class HomePageController extends Controller
 {
     public function index(){
-        $sliders = Slider::get();
+        $sliders = Slider::orderBy('created_at')->limit(3)->get();
         $about = About::find('1');
         $contact = Contact::find('1');
 

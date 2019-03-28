@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-@include('layouts.head')
-<body>
-    @include('layouts.nav')
-@yield('content')
-
-
-    @include('layouts.footer')
-    @include('layouts.scripts')
-</body>
+    @include('layouts.head')
+  <body>
+    
+    
+    @yield('content')
+    
+  </body>
 </html>
